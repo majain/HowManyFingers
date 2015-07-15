@@ -26,7 +26,7 @@ class ViewController: UIViewController {
                 self.answerLabel.text = "Your guess is correct"
             }
             else {
-                self.answerLabel.text = "Your guess is incorrect"
+                self.answerLabel.text = "Nope it was \(computedAnswer)"
             }
         }
         else {
